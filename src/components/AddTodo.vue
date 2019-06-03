@@ -2,7 +2,7 @@
   <div>
     <form @submit="addTodo">
       <input type="text" name="title" placeholder="Ajouter une Todo" v-model="title">
-      <input type="submit" value="Submit" class="btn">
+      <input type="submit" value="Créer" class="btn">
     </form>
   </div>
 </template>
